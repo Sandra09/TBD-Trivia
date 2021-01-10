@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F08353F25A2DDBE0001B0E6 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F08353E25A2DDBE0001B0E6 /* Question.swift */; };
+		3F08354D25A2E9420001B0E6 /* backgroundMusic.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3F08354C25A2E9420001B0E6 /* backgroundMusic.wav */; };
 		3FC14A6825A211A700BDCF45 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC14A6725A211A700BDCF45 /* AppDelegate.swift */; };
 		3FC14A6A25A211A700BDCF45 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC14A6925A211A700BDCF45 /* SceneDelegate.swift */; };
 		3FC14A6C25A211A700BDCF45 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC14A6B25A211A700BDCF45 /* ViewController.swift */; };
@@ -15,6 +17,14 @@
 		3FC14A7425A211AC00BDCF45 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FC14A7225A211AC00BDCF45 /* LaunchScreen.storyboard */; };
 		3FC14A7F25A211AD00BDCF45 /* TBD_TriviaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC14A7E25A211AD00BDCF45 /* TBD_TriviaTests.swift */; };
 		3FC14A8A25A211AD00BDCF45 /* TBD_TriviaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC14A8925A211AD00BDCF45 /* TBD_TriviaUITests.swift */; };
+		3FC14A9B25A29C6E00BDCF45 /* MovieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC14A9A25A29C6E00BDCF45 /* MovieViewController.swift */; };
+		3FC14AA025A29C8100BDCF45 /* AnimeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC14A9F25A29C8100BDCF45 /* AnimeViewController.swift */; };
+		3FC14AA525A29C9800BDCF45 /* BoardgameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC14AA425A29C9800BDCF45 /* BoardgameViewController.swift */; };
+		3FC14AAF25A2A18900BDCF45 /* movieQuestionBank.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC14AAE25A2A18900BDCF45 /* movieQuestionBank.swift */; };
+		3FC14AB425A2BC3E00BDCF45 /* animeQuestionBank.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC14AB325A2BC3E00BDCF45 /* animeQuestionBank.swift */; };
+		3FC14AB925A2C50500BDCF45 /* boardgameQuestionBank.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC14AB825A2C50500BDCF45 /* boardgameQuestionBank.swift */; };
+		3FC14AC625A2D30E00BDCF45 /* CelebritiesQuestionBank.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC14AC525A2D30E00BDCF45 /* CelebritiesQuestionBank.swift */; };
+		3FC14ACB25A2D6F300BDCF45 /* CelebritiesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC14ACA25A2D6F300BDCF45 /* CelebritiesViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +45,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3F08353E25A2DDBE0001B0E6 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		3F08354C25A2E9420001B0E6 /* backgroundMusic.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = backgroundMusic.wav; path = ../../../Downloads/backgroundMusic.wav; sourceTree = "<group>"; };
 		3FC14A6425A211A700BDCF45 /* TBD Trivia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TBD Trivia.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FC14A6725A211A700BDCF45 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3FC14A6925A211A700BDCF45 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +61,14 @@
 		3FC14A8525A211AD00BDCF45 /* TBD TriviaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TBD TriviaUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FC14A8925A211AD00BDCF45 /* TBD_TriviaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TBD_TriviaUITests.swift; sourceTree = "<group>"; };
 		3FC14A8B25A211AD00BDCF45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FC14A9A25A29C6E00BDCF45 /* MovieViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieViewController.swift; sourceTree = "<group>"; };
+		3FC14A9F25A29C8100BDCF45 /* AnimeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeViewController.swift; sourceTree = "<group>"; };
+		3FC14AA425A29C9800BDCF45 /* BoardgameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardgameViewController.swift; sourceTree = "<group>"; };
+		3FC14AAE25A2A18900BDCF45 /* movieQuestionBank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = movieQuestionBank.swift; sourceTree = "<group>"; };
+		3FC14AB325A2BC3E00BDCF45 /* animeQuestionBank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = animeQuestionBank.swift; sourceTree = "<group>"; };
+		3FC14AB825A2C50500BDCF45 /* boardgameQuestionBank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = boardgameQuestionBank.swift; sourceTree = "<group>"; };
+		3FC14AC525A2D30E00BDCF45 /* CelebritiesQuestionBank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CelebritiesQuestionBank.swift; sourceTree = "<group>"; };
+		3FC14ACA25A2D6F300BDCF45 /* CelebritiesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CelebritiesViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,9 +96,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3F08354325A2E89B0001B0E6 /* Sound */ = {
+			isa = PBXGroup;
+			children = (
+				3F08354C25A2E9420001B0E6 /* backgroundMusic.wav */,
+			);
+			path = Sound;
+			sourceTree = "<group>";
+		};
 		3FC14A5B25A211A700BDCF45 = {
 			isa = PBXGroup;
 			children = (
+				3F08354325A2E89B0001B0E6 /* Sound */,
+				3F08353E25A2DDBE0001B0E6 /* Question.swift */,
 				3FC14A6625A211A700BDCF45 /* TBD Trivia */,
 				3FC14A7D25A211AD00BDCF45 /* TBD TriviaTests */,
 				3FC14A8825A211AD00BDCF45 /* TBD TriviaUITests */,
@@ -102,6 +132,14 @@
 				3FC14A6725A211A700BDCF45 /* AppDelegate.swift */,
 				3FC14A6925A211A700BDCF45 /* SceneDelegate.swift */,
 				3FC14A6B25A211A700BDCF45 /* ViewController.swift */,
+				3FC14A9F25A29C8100BDCF45 /* AnimeViewController.swift */,
+				3FC14AB325A2BC3E00BDCF45 /* animeQuestionBank.swift */,
+				3FC14AA425A29C9800BDCF45 /* BoardgameViewController.swift */,
+				3FC14AB825A2C50500BDCF45 /* boardgameQuestionBank.swift */,
+				3FC14ACA25A2D6F300BDCF45 /* CelebritiesViewController.swift */,
+				3FC14AC525A2D30E00BDCF45 /* CelebritiesQuestionBank.swift */,
+				3FC14A9A25A29C6E00BDCF45 /* MovieViewController.swift */,
+				3FC14AAE25A2A18900BDCF45 /* movieQuestionBank.swift */,
 				3FC14A6D25A211A700BDCF45 /* Main.storyboard */,
 				3FC14A7025A211AC00BDCF45 /* Assets.xcassets */,
 				3FC14A7225A211AC00BDCF45 /* LaunchScreen.storyboard */,
@@ -231,6 +269,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F08354D25A2E9420001B0E6 /* backgroundMusic.wav in Resources */,
 				3FC14A7425A211AC00BDCF45 /* LaunchScreen.storyboard in Resources */,
 				3FC14A7125A211AC00BDCF45 /* Assets.xcassets in Resources */,
 				3FC14A6F25A211A700BDCF45 /* Main.storyboard in Resources */,
@@ -258,9 +297,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FC14ACB25A2D6F300BDCF45 /* CelebritiesViewController.swift in Sources */,
 				3FC14A6C25A211A700BDCF45 /* ViewController.swift in Sources */,
+				3FC14AA025A29C8100BDCF45 /* AnimeViewController.swift in Sources */,
 				3FC14A6825A211A700BDCF45 /* AppDelegate.swift in Sources */,
+				3FC14AB425A2BC3E00BDCF45 /* animeQuestionBank.swift in Sources */,
 				3FC14A6A25A211A700BDCF45 /* SceneDelegate.swift in Sources */,
+				3FC14AB925A2C50500BDCF45 /* boardgameQuestionBank.swift in Sources */,
+				3FC14A9B25A29C6E00BDCF45 /* MovieViewController.swift in Sources */,
+				3FC14AAF25A2A18900BDCF45 /* movieQuestionBank.swift in Sources */,
+				3F08353F25A2DDBE0001B0E6 /* Question.swift in Sources */,
+				3FC14AA525A29C9800BDCF45 /* BoardgameViewController.swift in Sources */,
+				3FC14AC625A2D30E00BDCF45 /* CelebritiesQuestionBank.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
